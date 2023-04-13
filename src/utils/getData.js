@@ -1,4 +1,4 @@
-const API = process.env.API_LINK;
+const API = process.env.API;
 
 const getData = async (id) => {
   const apiURl = id ? `${API}${id}` : API;

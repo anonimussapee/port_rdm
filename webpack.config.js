@@ -69,7 +69,9 @@ module.exports={
                 }
             ]
         }),
-        new Dotenv(),
+        new Dotenv({
+            path:'./.env'
+        }),
         new CleanWebpackPlugin(),
     ],
     optimization:{

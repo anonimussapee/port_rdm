@@ -38,5 +38,8 @@
     "terser-webpack-plugin": "^5.3.7",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
